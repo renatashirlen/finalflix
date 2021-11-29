@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+    --claro: #f3f3f3;
+    --cinza: #686868;
+
+}
+
+/* structure */
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+    color:var(--claro);
+
+}
+
+/*main game*/
+
+.main-game {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,0.5)), url(../images/FFVI_logo.png);
+    height: 400px;
+    background-size: cover;
+}
+
+.main-game .description {
+    font-size: 12px;
+
+}
