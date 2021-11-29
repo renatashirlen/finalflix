@@ -51,12 +51,21 @@ header nav a:hover {
 
 .main-game {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,0.5)), url(../images/FFVI_logo.png);
+    font-family: Arial, Helvetica, sans-serif;
     height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,.50)), url(../img/covers/FFVI_logo.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .main-game .description {
     font-size: 12px;
 
+}
+
+.botao {
+    padding: 30px;
 }
